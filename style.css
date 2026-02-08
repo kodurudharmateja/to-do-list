@@ -16,12 +16,12 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* CHANGED: from center to flex-start */
+  align-items: center;
   background: radial-gradient(at top left, #6b0f1a, transparent),
               radial-gradient(at top right, #b91d73, transparent),
               radial-gradient(at bottom left, #1a2a6c, transparent);
   background-color: #0f0c29;
-  padding: 0; /* CHANGED: from 20px to 0 */
+  padding: 20px;
 }
 
 .todolist {
@@ -35,14 +35,13 @@ body {
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   border: 1px solid var(--glass-border);
-  border-radius: 0 0 32px 32px; /* CHANGED: rounded only bottom corners */
+  border-radius: 32px;
   padding: 40px;
   width: 100%;
   max-width: 550px;
-  max-height: 100vh; /* CHANGED: from 90vh to 100vh */
+  max-height: 90vh;
   overflow-y: auto;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-  margin: 0; /* ADDED */
 }
 
 header h1 {
@@ -172,10 +171,9 @@ input:focus {
 
   .app-card {
     padding: 28px;
-    border-radius: 0 0 24px 24px; /* CHANGED: rounded only bottom corners */
+    border-radius: 24px;
     max-width: 100%;
-    max-height: 100vh; /* CHANGED: from 85vh to 100vh */
-    margin: 0; /* ADDED */
+    max-height: 85vh;
   }
 
   header h1 {
@@ -231,9 +229,8 @@ input:focus {
 
   .app-card {
     padding: 20px;
-    border-radius: 0 0 20px 20px; /* CHANGED: rounded only bottom corners */
-    max-height: 100vh; /* CHANGED: from 90vh to 100vh */
-    margin: 0; /* ADDED */
+    border-radius: 20px;
+    max-height: 90vh;
   }
 
   header h1 {
